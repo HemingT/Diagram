@@ -114,6 +114,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-47" value="Load Module Json RPC message" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="850" width="330" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-48" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;jsonrpc&quot;: &quot;2.0&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;id&quot;: &quot;2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;method&quot;: &quot;loadModule&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;params&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;param1&quot;: &quot;halethsw&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;version&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;execID&quot;: &quot;&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-47">
+          <mxGeometry x="30.620000000000005" y="50" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-49" value="Execute Testcase Json RPC message" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="850" width="330" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-50" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;jsonrpc&quot;: &quot;2.0&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;id&quot;: &quot;2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;method&quot;: &quot;executeTestCase&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;params&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;module&quot;: &quot;halethsw&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;method&quot;: &quot;ethsw_stub_hal_Get_Port_Status&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;params&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;PortID&quot;: &quot;eth0&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;flag&quot;: &quot;&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-49">
+          <mxGeometry x="30.620000000000005" y="40" width="280" height="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
