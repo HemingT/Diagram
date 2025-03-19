@@ -1,9 +1,119 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="eJpxqh-TB4JkxD2sImsZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-1" value="CPE" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#006EAF;strokeWidth=2;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="660" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-9" value="Stub Libraries" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-1">
+          <mxGeometry x="200" y="67.5" width="220" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-10" value="dhcp hal stub" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-9">
+          <mxGeometry x="-18.75" y="66.25" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-11" value="ethsw hal stub" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-9">
+          <mxGeometry x="30" y="66.25" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-12" value="platform hal stub" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-9">
+          <mxGeometry x="80" y="66.25" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-17" value="... hal stub" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-9">
+          <mxGeometry x="130" y="66.25" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-19" value="&lt;span&gt;HAL Libraries&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;textShadow=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-1">
+          <mxGeometry x="440" y="67.5" width="220" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-25" value="dhcp hal lib" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-19">
+          <mxGeometry x="-10" y="77.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-26" value="ethsw hal lib" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-19">
+          <mxGeometry x="40" y="77.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-27" value="platform hal lib" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-19">
+          <mxGeometry x="90" y="77.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-28" value="... hal lib" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-19">
+          <mxGeometry x="134" y="77.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BGYQNN8L7f1_A7FZH2UX-1" source="BGYQNN8L7f1_A7FZH2UX-10" target="BGYQNN8L7f1_A7FZH2UX-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="200" as="sourcePoint" />
+            <mxPoint x="480" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="226" y="260" />
+              <mxPoint x="475" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-46" value="link during compilation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BGYQNN8L7f1_A7FZH2UX-29">
+          <mxGeometry x="0.1321" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="BGYQNN8L7f1_A7FZH2UX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="260" as="sourcePoint" />
+            <mxPoint x="580" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-31" value="TDK Agent" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-1">
+          <mxGeometry x="20" y="60" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-32" value="&lt;div style=&quot;line-height: 230%;&quot;&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;1.&amp;nbsp;loadModule&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;2.&amp;nbsp;unloadModule&lt;br&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 51), rgb(237, 237, 237));&quot;&gt;3.executeTestCase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;4.&amp;nbsp;uploadLog&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;5. ....&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-31">
+          <mxGeometry x="10" y="25" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-33" value="&lt;div style=&quot;line-height: 180%;&quot;&gt;ethsw hal stub RPC methods&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="620" width="291.25" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-34" value="&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;div&gt;1. ethsw_stub_hal_Get_Port_Status&lt;/div&gt;&lt;div&gt;2. ethsw_stub_hal_LocatePort_By_MacAddress&lt;/div&gt;&lt;div&gt;3. ethsw_stub_hal_SetAgingSpeed&lt;/div&gt;&lt;div&gt;4. ... ...&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-33">
+          <mxGeometry x="11.25" y="30" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-35" value="Test Manager Web Server" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="280.62" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-38" value="&lt;div style=&quot;line-height: 180%;&quot;&gt;Test Case written with Python&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Send RPC msg with method &quot;loadModule&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Send RPC msg with method &quot;executeTestCase&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Send RPC msg with method &quot;executeTestCase&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Send RPC msg with method &quot;unloadModule&quot;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-35">
+          <mxGeometry x="-9.379999999999997" y="20" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-39" value="Json RPC Message Template" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="30" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-40" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;div&gt;{&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;jsonrpc&quot;: &quot;2.0&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;id&quot;: &quot;2&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;method&quot;: &quot;method name&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;params&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;param1&quot;: &quot;params&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BGYQNN8L7f1_A7FZH2UX-39">
+          <mxGeometry x="15" y="30" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-41" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BGYQNN8L7f1_A7FZH2UX-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="80" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="430" />
+              <mxPoint x="30" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="358" y="480" as="sourcePoint" />
+            <mxPoint x="393.70000000000005" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="358" y="560" />
+              <mxPoint x="394" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGYQNN8L7f1_A7FZH2UX-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="520" as="sourcePoint" />
+            <mxPoint x="250" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
