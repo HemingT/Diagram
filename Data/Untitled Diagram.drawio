@@ -587,7 +587,7 @@
         <mxCell id="DNNRDXTw1gsCjFIlZHku-276" value="Receiver CPE(APN work with bridge mode)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="309" y="2460" width="421" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="DNNRDXTw1gsCjFIlZHku-277" value="bridge-1(&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-276">
+        <mxCell id="DNNRDXTw1gsCjFIlZHku-277" value="br-lan2(&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-276">
           <mxGeometry x="140.5" y="199" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNNRDXTw1gsCjFIlZHku-278" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="DNNRDXTw1gsCjFIlZHku-277" target="DNNRDXTw1gsCjFIlZHku-279">
@@ -617,7 +617,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DNNRDXTw1gsCjFIlZHku-289" value="br-lanbr1&lt;br&gt;(192.168.1.1/&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-276">
+        <mxCell id="DNNRDXTw1gsCjFIlZHku-289" value="br-lan1&lt;br&gt;(192.168.1.1/&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-276">
           <mxGeometry x="140.5" y="30" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNNRDXTw1gsCjFIlZHku-290" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="DNNRDXTw1gsCjFIlZHku-289">
@@ -688,7 +688,7 @@
         <mxCell id="DNNRDXTw1gsCjFIlZHku-305" value="Receiver CPE(APN work with bridge mode)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="2900" width="421" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="DNNRDXTw1gsCjFIlZHku-306" value="bridge-1(&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-305">
+        <mxCell id="DNNRDXTw1gsCjFIlZHku-306" value="br-lan2(&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-305">
           <mxGeometry x="140.5" y="199" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNNRDXTw1gsCjFIlZHku-307" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="DNNRDXTw1gsCjFIlZHku-306" target="DNNRDXTw1gsCjFIlZHku-308">
@@ -730,7 +730,7 @@
         <mxCell id="DNNRDXTw1gsCjFIlZHku-317" value="br-lan&lt;br&gt;192.168.1.1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-305">
           <mxGeometry y="400" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DNNRDXTw1gsCjFIlZHku-319" value="br-lanbr1&lt;br&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-305">
+        <mxCell id="DNNRDXTw1gsCjFIlZHku-319" value="br-lan1&lt;br&gt;(&lt;span style=&quot;text-align: left;&quot;&gt;172.110.24.50&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DNNRDXTw1gsCjFIlZHku-305">
           <mxGeometry x="140.5" y="30" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DNNRDXTw1gsCjFIlZHku-320" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="DNNRDXTw1gsCjFIlZHku-319">
