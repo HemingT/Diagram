@@ -1,9 +1,140 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="oeFNH2TDGDkCd6Cg2ik1">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="60" width="93" x="23" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CPE/Router&lt;br&gt;Firewall" vertex="1">
+          <mxGeometry height="60" width="93" x="363" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Server" vertex="1">
+          <mxGeometry height="60" width="93" x="703" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="123" y="186" as="sourcePoint" />
+            <mxPoint x="353" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-5" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP SYN" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="468" y="185" as="sourcePoint" />
+            <mxPoint x="700.6750000000002" y="184.98000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-7" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP SYN" vertex="1">
+          <mxGeometry relative="1" x="-0.0267" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="693" y="210" as="sourcePoint" />
+            <mxPoint x="467" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-11" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="--reject-with icmp-port-unreachable" vertex="1">
+          <mxGeometry relative="1" x="-0.0177" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="349" y="207" as="sourcePoint" />
+            <mxPoint x="123" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-15" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="--reject-with icmp-port-unreachable" vertex="1">
+          <mxGeometry relative="1" x="-0.0177" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Conntrack at Server Side" vertex="1">
+          <mxGeometry height="90" width="219.5" x="600" y="260" as="geometry">
+            <mxRectangle height="30" width="130" x="679.5" y="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-18" parent="epYp2fjvwvHn-Wyv24FC-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="TCP SYN --&amp;gt; ORIGINAL&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="219.5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-19" parent="epYp2fjvwvHn-Wyv24FC-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="REJECT -&amp;gt;&amp;nbsp;RELATED_REPLY" vertex="1">
+          <mxGeometry height="30" width="219.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="60" width="93" x="23" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CPE/Router&lt;br&gt;Firewall" vertex="1">
+          <mxGeometry height="60" width="93" x="363" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Server" vertex="1">
+          <mxGeometry height="60" width="93" x="703" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="123" y="438" as="sourcePoint" />
+            <mxPoint x="353" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-25" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP SYN" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="468" y="431" as="sourcePoint" />
+            <mxPoint x="700.6750000000002" y="430.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-27" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP SYN" vertex="1">
+          <mxGeometry relative="1" x="-0.0267" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="468" as="sourcePoint" />
+            <mxPoint x="700" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-29" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="--reject-with icmp-port-unreachable" vertex="1">
+          <mxGeometry relative="1" x="-0.0177" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Conntrack at Server Firewall" vertex="1">
+          <mxGeometry height="120" width="219.5" x="299.75" y="521" as="geometry">
+            <mxRectangle height="30" width="130" x="679.5" y="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-33" parent="epYp2fjvwvHn-Wyv24FC-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="TCP SYN --&amp;gt; ORIGINAL&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="219.5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-34" parent="epYp2fjvwvHn-Wyv24FC-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="TCP SYN ACK --&amp;gt; REPLY&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="219.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-37" parent="epYp2fjvwvHn-Wyv24FC-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="REJECT -&amp;gt; RELATED" vertex="1">
+          <mxGeometry height="30" width="219.5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epYp2fjvwvHn-Wyv24FC-36" connectable="0" parent="epYp2fjvwvHn-Wyv24FC-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP SYN ACK" vertex="1">
+          <mxGeometry relative="1" x="0.0182" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
